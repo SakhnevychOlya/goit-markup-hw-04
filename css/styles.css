@@ -50,7 +50,7 @@ address {
 
 button {
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .container {
@@ -221,7 +221,9 @@ color: #2e2f42;
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    border:none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -553,13 +555,13 @@ color: #2e2f42;
 
 .icon-footer {
     fill: #f4f4fd;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .footer-list-icon:focus,
 .footer-list-icon:hover {
     background-color: #31d0aa;
-    transition: backgroun 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-text {
